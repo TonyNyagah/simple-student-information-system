@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "SIS Backend"
+version = "0.1.0"
+description = "The backend to the SIS system handling data transfer to and from the database."
+authors = ["Antony Nyagah <tony.m.nyagah@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.6"
+django-environ = "^0.9.0"
+psycopg2-binary = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+django-debug-toolbar = "^3.5.0"
+django-extensions = "^3.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
